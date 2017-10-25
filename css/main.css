@@ -1,0 +1,54 @@
+body {
+    
+      box-sizing: border-box;
+      color: hsl(0, 0%, 19%);
+      font-family: 'Roboto Slab', serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+
+    .line {
+        margin-left: 30px;
+        width: 100px;
+    }
+
+    section {
+        margin-top: 400px;
+        margin-left: 30px;
+        margin-bottom: 0;
+        position: relative;
+        width: 1000px;
+    }
+    
+    .first {
+        position: relative;
+        transform: translateY(-170%);
+    }
+    
+    .second {
+        position: relative;
+        transform: translateY(-340%);
+    }
+
+    figure {
+        margin: 0 15px 0 0;
+        display: inline-block;
+    }
+
+    .picture {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .name {
+        text-align: right;
+        color:pink;
+        padding-right: 15px;
+        position: relative;
+        transform: translateY(-150%);
+    }
